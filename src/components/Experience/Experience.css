@@ -1,0 +1,14 @@
+.experience {
+  height: 50vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience_box {
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  width: 90%;
+  height: 35vh;
+}

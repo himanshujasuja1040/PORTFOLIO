@@ -1,0 +1,25 @@
+.story {
+  width: 87vw;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.story_left {
+  width: 50%;
+  min-height: 100vh;
+}
+.story_right {
+  width: 40%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story_right > p {
+  position: sticky;
+  z-index: 100;
+  top: 10%;
+  font-size: 70px;
+  font-weight: 700;
+}

@@ -1,0 +1,28 @@
+.leftfixbox {
+  height: 100vh;
+  width: 9vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.leftfixbox_top > a > img {
+  width: 150px;
+}
+.leftfixbox_down {
+  margin-bottom: 40px;
+}
+.leftfixbox_down > ul > li {
+  list-style: none;
+  margin: 10px 0px;
+}
+.leftfixbox_down > ul > li > a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.leftfixbox_down > ul > li > a:hover {
+  transition: 0.5s ease;
+  color: #c2f210;
+}
