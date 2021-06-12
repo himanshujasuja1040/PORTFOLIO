@@ -5,23 +5,25 @@ const LeftFixBox = () => {
   return (
     <div className="leftfixbox">
       <div className="leftfixbox_top">
-        <a href="">
+        <a href="https://facebook.com">
           <img src={logo} alt="" />
         </a>
       </div>
       <div className="leftfixbox_down">
         <ul>
           <li>
-            <a href="">Linkdein</a>
+            <a href="https://linkedin.com/in/himanshu-jasuja-b2a660201">
+              Linkdein
+            </a>
           </li>
           <li>
-            <a href="">Instagram</a>
+            <a href="https://instagram.com/himanshu__jasuja_">Instagram</a>
           </li>
           <li>
-            <a href="">Twitter</a>
+            <a href="https://twitter.com/Himanshujasuja2">Twitter</a>
           </li>
           <li>
-            <a href="">Github</a>
+            <a href="https://github.com/himanshujasuja1040">Github</a>
           </li>
         </ul>
       </div>

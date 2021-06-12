@@ -23,6 +23,7 @@
   left: 10%;
   animation: move 6s linear infinite;
   transition-delay: 3s ease;
+  font-family: cursive;
 }
 @keyframes move {
   0% {

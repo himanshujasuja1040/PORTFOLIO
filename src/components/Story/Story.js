@@ -79,9 +79,9 @@ const Story = () => {
           explicabo praesentium iusto! Ab eius possimus in?
         </h3>
       </div>
-      <div className="story_right">
+      <div className="story_right" style={{ fontFamily: "cursive" }}>
         <p>
-          Living in <br /> Delhi 🎄
+          Born at <br /> Delhi 🎄
         </p>
       </div>
     </div>

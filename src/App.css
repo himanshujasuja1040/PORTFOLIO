@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Ubuntu:ital,wght@1,500&family=Viaoda+Libre&display=swap");
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Viaoda Libre', cursive; */
+
 * {
   margin: 0;
   box-sizing: border-box;

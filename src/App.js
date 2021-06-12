@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <div className="app" style={{ backgroundColor: bgColor }}>
-        <LeftFixBox />
+        {window.scrollY < 2900 ? <LeftFixBox /> : <div></div>}
         <div className="app_row">
           <TopHeaderBox bgColor={bgColor} />
           <Main bgColor={bgColor} />
@@ -39,8 +39,10 @@ function App() {
             style={{
               color: "white",
               textAlign: "center",
-              fontSize: "50px",
-              marginTop: "40px",
+              fontSize: "150px",
+              marginTop: "100px",
+              fontFamily: "monospace",
+              textShadow: "0px 0px 5px",
             }}
           >
             EXPERIENCE
@@ -69,7 +71,11 @@ function App() {
           >
             <p
               data-aos="fade-down"
-              style={{ fontSize: "120px", fontWeight: "900" }}
+              style={{
+                fontSize: "120px",
+                fontWeight: "900",
+                fontFamily: "cursive",
+              }}
             >
               STILL WAITING ? 🙄
               <br />
@@ -85,6 +91,7 @@ function App() {
                 textAlign: "center",
                 fontSize: "50px",
                 fontWeight: "600",
+                fontFamily: "cursive",
               }}
               data-aos="fade-right"
             >
@@ -93,17 +100,38 @@ function App() {
             <div
               className="app_icons"
               style={{
-                color: "white",
                 display: "flex",
                 justifyContent: "space-evenly",
                 marginTop: "50px",
               }}
             >
-              <FacebookIcon />
-              <InstagramIcon />
-              <GitHubIcon />
-              <LinkedInIcon />
-              <TwitterIcon />
+              <a href="https://facebook.com" style={{ color: "white" }}>
+                <FacebookIcon />
+              </a>
+              <a
+                href="https://instagram.com/himanshu__jasuja_"
+                style={{ color: "white" }}
+              >
+                <InstagramIcon />
+              </a>
+              <a
+                href="https://github.com/himanshujasuja1040"
+                style={{ color: "white" }}
+              >
+                <GitHubIcon />
+              </a>
+              <a
+                href="https://linkedin.com/in/himanshu-jasuja-b2a660201"
+                style={{ color: "white" }}
+              >
+                <LinkedInIcon />
+              </a>
+              <a
+                href="https://twitter.com/Himanshujasuja2"
+                style={{ color: "white" }}
+              >
+                <TwitterIcon />
+              </a>
             </div>
             <h1
               data-aos="fade"

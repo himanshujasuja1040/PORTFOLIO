@@ -7,7 +7,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import MovingBar from "../../Extras/MovingBar/MovingBar";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
-import { useState } from "react";
 const Main = ({ bgColor }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -29,7 +28,7 @@ const Main = ({ bgColor }) => {
           Open Source Enthusiastic 💓
         </h2>
       </div>
-      <div className="main_image">
+      <div className="main_image" data-aos="fade-down">
         <img src={Photo} alt="" />
       </div>
       <MovingBar text="CHECK SOME OF MY STUFFS " />
