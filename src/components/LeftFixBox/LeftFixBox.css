@@ -22,9 +22,14 @@
   font-size: 20px;
   text-decoration: none;
   font-family: "Viaoda Libre", cursive;
-  font-weight: 700;
+  font-weight: bolder;
 }
 .leftfixbox_down > ul > li > a:hover {
   transition: 0.5s ease;
   color: #c2f210;
+}
+@media screen and (max-width: 1496px) {
+  .leftfixbox {
+    display: none;
+  }
 }

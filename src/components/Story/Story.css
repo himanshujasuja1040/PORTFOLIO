@@ -23,3 +23,15 @@
   font-size: 70px;
   font-weight: 700;
 }
+@media screen and (max-width: 786px) {
+  .story {
+    width: 100%;
+    flex-direction: column;
+  }
+  .story_left {
+    width: 100%;
+  }
+  .story_right {
+    display: none;
+  }
+}

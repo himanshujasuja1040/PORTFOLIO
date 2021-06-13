@@ -8,7 +8,7 @@ font-family: 'Viaoda Libre', cursive; */
 .main {
   width: 87vw;
   min-height: 100vh;
-  font-family: cursive;
+  font-family: "Itim", cursive;
 }
 .main_detailText > h2 {
   margin-top: 300px;
@@ -29,4 +29,21 @@ font-family: 'Viaoda Libre', cursive; */
 }
 .main_image > img:hover {
   box-shadow: 0rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+}
+@media screen and (max-width: 1496px) {
+  .main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .main_detailText > h2 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .main_image {
+    justify-content: center;
+  }
+  .main_image > img {
+    width: 100px;
+  }
 }

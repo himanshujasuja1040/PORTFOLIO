@@ -33,5 +33,29 @@
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
-  font-family: cursive;
+  font-family: "Itim", cursive;
+}
+@media screen and (max-width: 786px) {
+  .projectdetails {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .projectdetails_left {
+    width: 97%;
+    height: 30vh;
+  }
+  .projectdetails_left_text {
+    font-size: 30px;
+  }
+  .projectdetails_right > p,
+  .projectdetails_right > a {
+    font-size: 22px;
+  }
+  .projectdetails_right {
+    height: 30vh;
+  }
+  .projectdetails_left > img {
+    height: 100%;
+    width: 100%;
+  }
 }

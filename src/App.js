@@ -32,21 +32,11 @@ function App() {
       <div className="app" style={{ backgroundColor: bgColor }}>
         {window.scrollY < 2900 ? <LeftFixBox /> : <div></div>}
         <div className="app_row">
-          <TopHeaderBox bgColor={bgColor} />
+          {window.scrollY < 2900 ? <TopHeaderBox bgColor={bgColor} /> : <></>}
+
           <Main bgColor={bgColor} />
           <Story />
-          <h1
-            style={{
-              color: "white",
-              textAlign: "center",
-              fontSize: "150px",
-              marginTop: "100px",
-              fontFamily: "monospace",
-              textShadow: "0px 0px 5px",
-            }}
-          >
-            EXPERIENCE
-          </h1>
+          <h1 className="app_experience_text">EXPERIENCE</h1>
           <h2
             style={{
               color: "white",
@@ -59,24 +49,8 @@ function App() {
           <Experience text=" CONTRIBUTOR in For Community " />
           <Experience text=" CONTRIBUTOR in For Community " />
           <Experience text=" CONTRIBUTOR in For Community " />
-          <div
-            style={{
-              color: "white",
-              width: "100%",
-              height: "100vh",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <p
-              data-aos="fade-down"
-              style={{
-                fontSize: "120px",
-                fontWeight: "900",
-                fontFamily: "cursive",
-              }}
-            >
+          <div className="app_stillwaiting">
+            <p className="app_stillwaiting_text" data-aos="fade-left">
               STILL WAITING ? 🙄
               <br />
               WANNA CONNECT...!!
@@ -85,16 +59,7 @@ function App() {
             </p>
           </div>
           <div style={{ width: "100%", height: "50vh" }}>
-            <p
-              style={{
-                color: "white",
-                textAlign: "center",
-                fontSize: "50px",
-                fontWeight: "600",
-                fontFamily: "cursive",
-              }}
-              data-aos="fade-right"
-            >
+            <p className="app_happyChitchat_text" data-aos="fade-right">
               I WILL BE HAPPY TO CHITCHAT A BIT
             </p>
             <div
@@ -106,35 +71,34 @@ function App() {
               }}
             >
               <a href="https://facebook.com" style={{ color: "white" }}>
-                <FacebookIcon />
+                <FacebookIcon style={{ fontSize: 40 }} />
               </a>
               <a
                 href="https://instagram.com/himanshu__jasuja_"
                 style={{ color: "white" }}
               >
-                <InstagramIcon />
+                <InstagramIcon style={{ fontSize: 40 }} />
               </a>
               <a
                 href="https://github.com/himanshujasuja1040"
                 style={{ color: "white" }}
               >
-                <GitHubIcon />
+                <GitHubIcon style={{ fontSize: 40 }} />
               </a>
               <a
                 href="https://linkedin.com/in/himanshu-jasuja-b2a660201"
                 style={{ color: "white" }}
               >
-                <LinkedInIcon />
+                <LinkedInIcon style={{ fontSize: 40 }} />
               </a>
               <a
                 href="https://twitter.com/Himanshujasuja2"
                 style={{ color: "white" }}
               >
-                <TwitterIcon />
+                <TwitterIcon style={{ fontSize: 40 }} />
               </a>
             </div>
             <h1
-              data-aos="fade"
               style={{
                 color: "white",
                 textAlign: "center",

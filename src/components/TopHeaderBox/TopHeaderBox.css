@@ -25,3 +25,13 @@ h5 > a:hover {
   transition: 0.5s ease;
   color: #c2f210;
 }
+@media screen and (max-width: 500px) {
+  .topheaderbox {
+    width: 50vw;
+  }
+  h5 > a {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px -5px;
+    font-size: 20px;
+  }
+}
